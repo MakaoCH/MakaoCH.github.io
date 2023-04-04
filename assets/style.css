@@ -103,10 +103,16 @@ body {
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
-	border-radius:0 ;
+	border-radius: 0.25em;
 }
 .nav-pills .nav-link {
 	color: #000
+}
+/* modification style boutons filtres */
+.nav-pills .nav-link:hover {
+	color: #fff;
+	background-color: #BEB45A;
+	border-radius:0.25em ;
 }
 .item-column {
 	position: relative;
