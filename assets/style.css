@@ -66,11 +66,6 @@ body {
 	margin: 0 20px;
 	z-index: 0;
 }
-
-.picture img {
-	width: 100%;
-
-}
 #about-me {
 	flex: 2
 }
@@ -253,10 +248,6 @@ input[type="submit"] {
 .carousel-inner img {
 	width: 100%;
 	height: auto;
-}
-.picture img {
-	max-width: 375px;
-	max-height: 375px;
 }
 
 @media all and (max-width: 1180px) {
