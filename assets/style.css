@@ -254,6 +254,10 @@ input[type="submit"] {
 	width: 100%;
 	height: auto;
 }
+.picture img {
+	max-width: 375px;
+	max-height: 375px;
+}
 
 @media all and (max-width: 1180px) {
 	.picture {
