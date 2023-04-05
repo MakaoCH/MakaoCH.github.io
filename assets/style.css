@@ -103,7 +103,7 @@ body {
 }
 /* modification style boutons filtres */
 .nav-pills .nav-link:hover {
-	color: #fff;
+	color: white;
 	background-color: #BEB45A;
 	border-radius:0.25em ;
 }
