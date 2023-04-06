@@ -38,8 +38,6 @@ body {
 	color: #000
 }
 
-
-
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -93,20 +91,22 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #A89E43;
-	border-radius: 0.25em;
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #A89E43;
+  border-radius: 0.25em;
 }
+
 .nav-pills .nav-link {
-	color: #000
+  color: #000;
 }
-/* modification style boutons filtres */
+
 .nav-pills .nav-link:hover {
-	color: white;
-	background-color: #A89E43;
-	border-radius:0.25em ;
+  /*color: white;*/
+  background-color: #A89E43;
+  border-radius:0.25em ;
 }
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
