@@ -30,20 +30,26 @@
 	<!-- Google tag (gtag.js) -->
 	
 	<script type="application/ld+json">
-        {
-          "@context": "http://schema.org",
-          "@type": "LocalBusiness",
-          "name": "Nina Carducci",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "68 avenue Alsace-Lorraine",
-            "addressLocality": "Bordeaux",
-            "postalCode": "33200"
-          },
-          "telephone": "05 56 67 78 89",
-          "openingHours": "Mo-Fr 10:00-19:00"
-        }
-    </script> 
+		{
+		  "@context": "http://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200"
+		  },
+		  "telephone": "05 56 67 78 89",
+		  "openingHours": "Mo-Fr 10:00-19:00",
+		  "priceRange": "$50 - $400",
+		  "image": {
+			"@type": "ImageObject",
+			"url": "./assets/images/nina_small.webp",
+			"width": "650"
+		  }
+		}
+	</script>	
 </head>
 <body>
 	<header>
@@ -98,7 +104,7 @@
 			<section>
 				<div id="about">
 					<div class="picture left">
-						<img class="w-100 h-auto" srcset="./assets/images/nina_small.webp 60w, ./assets/images/nina_medium.webp 800w, ./assets/images/nina_large.webp 1180w" width="375" height="375" src="./assets/images/nina.png" alt="Photo du portrait de face de Nina Carducci" title="Portrait Nina Carducci">
+						<img class="w-100 h-auto" srcset="./assets/images/nina_small.webp 650w, ./assets/images/nina_medium.webp 800w, ./assets/images/nina_large.webp 1180w" width="375" height="375" src="./assets/images/nina.png" alt="Photo du portrait de face de Nina Carducci" title="Portrait Nina Carducci">
 					</div>
 					<div id="about-me">
 						<h2 class="about-me__title">A propos de moi</h2>
